@@ -83,12 +83,12 @@ $array_filas = $select_pre->fetchAll();
 
                 <div>
                     <label for="usuario"> Nombre del usuario</label>
-                    <input type="text" id="usuario" name="usuario">
+                    <input type="text" id="usuario" name="usuario" value="<?= $_GET['usuario']?>">
 
                 </div>
                 <div>
                     <label for="color"> Nombre del color</label>
-                    <input type="text" id="color" name="color">
+                    <input type="text" id="color" name="color" value="<?= $_GET['color']?>">
                 </div>
                 <div>
                     <button type="submit">Enviar datos</button>
